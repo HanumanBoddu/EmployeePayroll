@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "id": "3a9a",
+      "name": "",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "e0dc",
+      "name": "",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "18 Nov 2009",
+      "notes": ""
+    },
+    {
+      "id": "0b1c",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman"
+    },
+    {
+      "id": "ddca",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman"
+    },
+    {
+      "id": "b766",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman"
+    },
+    {
+      "id": "327d",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman"
+    },
+    {
+      "id": "bc17",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman final"
+    },
+    {
+      "id": "ebd6",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "17 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "9c12",
+      "name": "rohithgundu11949@gmail.com",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "962d",
+      "name": "rohithgundu11949@gmail.com",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "2f27",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "17 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "fe3a",
+      "name": "",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "b2b9",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "../Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "17 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "603f",
+      "name": "rohithgundu11949@gmail.com",
+      "image": "./Assets/images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "₹10,000",
+      "startDate": "19 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "5864",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "../Assets/images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "17 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "6ffa",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "../Assets/images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "17 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "c346",
+      "name": "hanuman.boddu@godigit.com",
+      "notes": "Hanuman final"
+    },
+    {
+      "id": "a7c9",
+      "name": "Hanuman",
+      "image": "./Assets/images/Ellipse -4.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "7 Sep 2005",
+      "notes": ""
+    },
+    {
+      "id": "9895",
+      "name": "",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "1876",
+      "name": "",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "9155",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "1 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "3d0c",
+      "name": "hanuman.boddu@godigit.com",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "1 Month Year",
+      "notes": ""
+    },
+    {
+      "id": "9fdd",
+      "name": "",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "b194",
+      "name": "sai",
+      "image": "./Assets/images/Ellipse -5.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "Day Month Year",
+      "notes": ""
+    },
+    {
+      "id": "0ce9",
+      "name": "hanumankumarboddu@godigit.com",
+      "image": "./Assets/images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "7 Sep 2008",
+      "notes": ""
+    }
+  ]
+}
