@@ -87,19 +87,40 @@ $(document).ready(function() {
             notes: notes
         };
 
-        $.ajax({
-            url: 'http://localhost:3000/users',
-            method: 'POST',
-            contentType: 'application/json',
-            data: JSON.stringify(newUser),
-            success: function(data) {
-                console.log('User added:', data);
-                window.opener.location.reload();
-            },
-            error: function(error) {
-                console.error('Error:', error);
-            }
-        });
+        if(localStorage.getItem('editUser')!==null){
+            const user=JSON.parse(localStorage.getItem('editUser'));
+            id=user.id;
+            $.ajax({
+                url: 'http://localhost:3000/Users/'+ id,
+                type: 'PUT',
+                contentType: 'application/json',
+                data: JSON.stringify(newUser),
+                success: function (res) {
+                    console.log(res);
+                    alert('Data updated successfully');
+                    window.opener.location.reload();
+                    window.location.replace("employedetails.html");
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+            localStorage.removeItem('editUser');
+        }else{
+            $.ajax({
+                url: 'http://localhost:3000/users',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(newUser),
+                success: function(data) {
+                    console.log('User added:', data);
+                    window.opener.location.reload();
+                },
+                error: function(error) {
+                    console.error('Error:', error);
+                }
+            });
+        }
     });
 });
 
