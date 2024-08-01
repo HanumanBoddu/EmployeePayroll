@@ -1,21 +1,21 @@
 $(document).ready(function() { 
-        // $(".searchbtn").click(function(){
-        //   $(this).replaceWith('<input type="text" id="searchInput" placeholder="Search users..."><button id="searchButt">Search</button>');
-        //   $('#searchButt').on('click', function() {
-        //       const searchTerm = $('#searchInput').val().toLowerCase();
-        //       $.ajax({
-        //           url: 'http://localhost:3000/users',
-        //           method: 'GET',
-        //           contentType: 'application/json',
-        //           success: function(data) {
-        //               const filteredUsers = data.filter(user => 
-        //                   user.name.toLowerCase().includes(searchTerm)
-        //               );
-        //               displayUsers(filteredUsers);
-        //           }
-        //       });
-        //   });
-        // });
+        $(".searchbtn").click(function(){
+          $(this).replaceWith('<input type="text" id="searchInput" placeholder="Search users..."><button id="searchButt">Search</button>');
+          $('#searchButt').on('click', function() {
+              const searchTerm = $('#searchInput').val().toLowerCase();
+              $.ajax({
+                  url: 'http://localhost:3000/users',
+                  method: 'GET',
+                  contentType: 'application/json',
+                  success: function(data) {
+                      const filteredUsers = data.filter(user => 
+                          user.name.toLowerCase().includes(searchTerm)
+                      );
+                      displayUsers(filteredUsers);
+                  }
+              });
+          });
+        });
 
 
     function fetchAndDisplayUsers() {
