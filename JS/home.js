@@ -33,7 +33,7 @@ $(document).ready(function() {
     function displayUsers(users) {
         const userTableBody = $('#userTableBody');
         userTableBody.empty(); 
-        users.forEach(user => {
+         users.forEach(user => {
             const userRow = `
             <tr>
                  <td><img class="profilepic" src="${user.image}" style="height: 30px; width: 35px; border-radius: 2px; border: none;"></td>
@@ -50,8 +50,8 @@ $(document).ready(function() {
                  <td>${user.startDate}</td>
                  <td>
                    <div class="action">
-                      <button class="icon-btn"><img src="../Assets/icons/create-black-18dp.svg"></button>
-                      <button class="icon-btn"><img src="../Assets/icons/delete-black-18dp.svg"></button>
+                      <button class="icon-btn" onclick="editUser('${user.id}')" ><img src="../Assets/icons/create-black-18dp.svg"></button>
+                      <button class="icon-btn" onclick="deletemploy('${user.id}')"><img src="../Assets/icons/delete-black-18dp.svg"></button>
                    </div>
                  </td>
         </tr>
@@ -61,14 +61,6 @@ $(document).ready(function() {
     }
 
     fetchAndDisplayUsers();
-
-
-    //Delete Functionality  
-    $('#delete-btn').on('click',function(){
-        console.log($(this).closest('tr'));
-        $(this).closest('tr').remove();
-    })
-
 
     //Add User Functionality
     $('#submit').on('click', function() {
@@ -91,7 +83,7 @@ $(document).ready(function() {
             gender:gender,
             department: department,
             salary: salary,
-            startDate: startDay + ' ' + startMonth + ' ' + startYear,
+            startDate: startDay + '/' + startMonth + '/' + startYear,
             notes: notes
         };
 
@@ -110,3 +102,41 @@ $(document).ready(function() {
         });
     });
 });
+
+function deletemploy(id){
+    console.log("at the delete function")
+    $.ajax({
+        url: 'http://localhost:3000/users/'+id,
+        type: 'DELETE',
+        success: function (res) {
+            console.log(res);
+            alert('Data deleted successfully');
+            window.opener.location.reload();
+        },
+        error: function (err) {
+            console.log(err);
+        }
+    });
+   };
+
+   function editUser(id){
+    console.log("at the edit function")
+    $.ajax({
+        url: 'http://localhost:3000/users/'+id,
+        type: 'GET',
+        success: function (data) {
+            localStorage.setItem('editUser', JSON.stringify(data));
+            window.open('./Templates/home.html');
+            // const user = JSON.parse(localStorage.getItem('editUser'));
+            // console.log(user);
+        },
+        error: function (err) {
+            console.log(err);
+        }
+    });
+   }
+
+ 
+
+
+ 

@@ -1,43 +1,6 @@
 {
   "users": [
     {
-      "id": "3a9a",
-      "name": "",
-      "image": "../Assets/images/Ellipse -5.png",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales",
-        "Finance",
-        "Engineer"
-      ],
-      "salary": "₹10,000",
-      "startDate": "Day Month Year",
-      "notes": ""
-    },
-    {
-      "id": "e0dc",
-      "name": "",
-      "image": "../Assets/images/Ellipse -5.png",
-      "gender": "Male",
-      "department": [
-        "HR"
-      ],
-      "salary": "₹10,000",
-      "startDate": "18 Nov 2009",
-      "notes": ""
-    },
-    {
-      "id": "0b1c",
-      "name": "hanuman.boddu@godigit.com",
-      "notes": "Hanuman"
-    },
-    {
-      "id": "ddca",
-      "name": "hanuman.boddu@godigit.com",
-      "notes": "Hanuman"
-    },
-    {
       "id": "b766",
       "name": "hanuman.boddu@godigit.com",
       "notes": "Hanuman"
@@ -86,18 +49,6 @@
       ],
       "salary": "₹10,000",
       "startDate": "Day Month Year",
-      "notes": ""
-    },
-    {
-      "id": "2f27",
-      "name": "hanuman.boddu@godigit.com",
-      "image": "../Assets/images/Ellipse -5.png",
-      "gender": "Male",
-      "department": [
-        "HR"
-      ],
-      "salary": "₹10,000",
-      "startDate": "17 Month Year",
       "notes": ""
     },
     {
@@ -228,18 +179,6 @@
       "notes": ""
     },
     {
-      "id": "9fdd",
-      "name": "",
-      "image": "./Assets/images/Ellipse -5.png",
-      "gender": "Male",
-      "department": [
-        "HR"
-      ],
-      "salary": "₹10,000",
-      "startDate": "Day Month Year",
-      "notes": ""
-    },
-    {
       "id": "b194",
       "name": "sai",
       "image": "./Assets/images/Ellipse -5.png",
@@ -261,6 +200,18 @@
       ],
       "salary": "₹10,000",
       "startDate": "7 Sep 2008",
+      "notes": ""
+    },
+    {
+      "id": "3d4d",
+      "name": "hanumankumarboddu@godigit.com",
+      "image": "./Assets/images/Ellipse -8.png",
+      "gender": "Male",
+      "department": [
+        "HR"
+      ],
+      "salary": "₹10,000",
+      "startDate": "18/Nov/2008",
       "notes": ""
     }
   ]
